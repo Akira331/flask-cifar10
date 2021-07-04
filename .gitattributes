@@ -1,3 +1,4 @@
+flask-cifar10 filter=lfs diff=lfs merge=lfs -text
 /Procfile filter=lfs diff=lfs merge=lfs -text
 *.pyc filter=lfs diff=lfs merge=lfs -text
 *.py filter=lfs diff=lfs merge=lfs -text
@@ -424,5 +425,10 @@
 /venv/lib/python3.8/site-packages/tensorflow/include/unsupported/Eigen/KroneckerProduct 2 filter=lfs diff=lfs merge=lfs -text
 /venv/lib/python3.8/site-packages/tensorflow/include/unsupported/Eigen/MatrixFunctions 2 filter=lfs diff=lfs merge=lfs -text
 /venv/lib/python3.8/site-packages/tensorflow/include/unsupported/Eigen/SpecialFunctions 2 filter=lfs diff=lfs merge=lfs -text
+/HEAD filter=lfs diff=lfs merge=lfs -text
+/config filter=lfs diff=lfs merge=lfs -text
+/description filter=lfs diff=lfs merge=lfs -text
+*.sample filter=lfs diff=lfs merge=lfs -text
+/info/exclude filter=lfs diff=lfs merge=lfs -text
 “*.h5 filter=lfs diff=lfs merge=lfs -text
 *.so” filter=lfs diff=lfs merge=lfs -text
